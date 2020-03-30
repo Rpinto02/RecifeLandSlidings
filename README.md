@@ -20,7 +20,7 @@ Conclusions are taken on 12.2
 
 Portuguese
 
-Tentative de construção de um modelo de predição de deslizamentos na cidade de Recife(Brasil).
+Tentativa de construção de um modelo de predição de deslizamentos na cidade de Recife(Brasil).
 
 Este repositório é uma tentativa de usar aprendizado de máquina para construção de um modelo para estimar a probabilidade de um deslizamento num dado local na cidade de Recife (Pernambuco, Brasil), usando as bases de dados públicas da perfeitura local (http://dados.recife.pe.gov.br/).
 
