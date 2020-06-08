@@ -13,18 +13,17 @@ This a machine learning approach to estimate the probability of a land sliding o
 * Matplotlib, Seaborn
 * Scikit-Learn
   * GaussianNB
+  * SVC
+  * RandomForestRegressor
+  * RandomForestClassifier
+  * Train Test Split
+  * Cross Validation Score
+  * ROC Curve, AUC
+  * StandardScaler
+  * Classification report, Confusion matrix
+  * Precision score, Accuracy Score
+  * TSNE
 
-from sklearn.naive_bayes import GaussianNB
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import roc_curve, auc
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report,confusion_matrix
-from sklearn.metrics import precision_score, accuracy_score
-from sklearn.manifold import TSNE
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import RandomForestClassifier
 
 ### Instructions
 Notebook order of reading:
@@ -55,12 +54,22 @@ Este repositório é uma tentativa de usar aprendizado de máquina para constru�
 
 ## Como Começar
 ### Dependências
+
 * Python 3.8
 * Pandas, Numpy
-* Tabula
 * Matplotlib, Seaborn
-* Requests
-
+* Scikit-Learn
+  * GaussianNB
+  * SVC
+  * RandomForestRegressor
+  * RandomForestClassifier
+  * Train Test Split
+  * Cross Validation Score
+  * ROC Curve, AUC
+  * StandardScaler
+  * Classification report, Confusion matrix
+  * Precision score, Accuracy Score
+  * TSNE
 Ordem de leitura dos notebooks:
 
 Comece com os notebooks 00 que tratam da preparação das bases de dados originais.
