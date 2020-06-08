@@ -12,7 +12,7 @@ This a machine learning approach to estimate the probability of a land sliding o
 * Pandas, Numpy
 * Matplotlib, Seaborn
 * Scikit-Learn
-** GaussianNB
+  * GaussianNB
 
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
