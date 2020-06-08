@@ -10,9 +10,20 @@ This a machine learning approach to estimate the probability of a land sliding o
 
 * Python 3.8
 * Pandas, Numpy
-* Tabula
 * Matplotlib, Seaborn
-* Requests
+* Scikit-Learn
+** GaussianNB
+from sklearn.naive_bayes import GaussianNB
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import roc_curve, auc
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report,confusion_matrix
+from sklearn.metrics import precision_score, accuracy_score
+from sklearn.manifold import TSNE
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier
 
 ### Instructions
 Notebook order of reading:
