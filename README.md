@@ -1,10 +1,20 @@
-English
+# Building a predictive model for Recife (Brazil) land slidings
 
-Trying to build a land sliding prediciton method in the city of Recife, Brazil.
+## Introduction
 
-This a machine learning approach to estimate the probability of a land sliding on a given location in the city of Recife, Brazil, using the public datasets provided by the government (http://dados.recife.pe.gov.br/).
+This a machine learning approach to estimate the probability of a land sliding on a given location in the city of Recife, Brazil, using the public datasets provided by the [government](http://dados.recife.pe.gov.br/).
 
+## Getting Started
 
+### Dependencies
+
+* Python 3.8
+* Pandas, Numpy
+* Tabula
+* Matplotlib, Seaborn
+* Requests
+
+### Instructions
 Notebook order of reading:
 
 Start reading with 00 notebooks which are the preparation of the original dataframes.
@@ -17,12 +27,27 @@ From 04 and on you can read through the feature analysis and model variations.
 
 Conclusions are taken on 12.2
 
+## License
+[MIT](https://opensource.org/licenses/MIT)
 
-Portuguese
+## Issue/Bug
 
-Tentativa de construção de um modelo de predição de deslizamentos na cidade de Recife(Brasil).
+Please open issues on github to report bugs or make feature requests.
 
-Este repositório é uma tentativa de usar aprendizado de máquina para construção de um modelo para estimar a probabilidade de um deslizamento num dado local na cidade de Recife (Pernambuco, Brasil), usando as bases de dados públicas da perfeitura local (http://dados.recife.pe.gov.br/).
+
+# Construindo um modelo preditivo para deslizamentos de terra em Recife (Brasil)
+
+# Introdução
+
+Este repositório é uma tentativa de usar aprendizado de máquina para construção de um modelo para estimar a probabilidade de um deslizamento num dado local na cidade de Recife (Pernambuco, Brasil), usando as bases de dados públicas da [perfeitura local](http://dados.recife.pe.gov.br/).
+
+## Como Começar
+### Dependências
+* Python 3.8
+* Pandas, Numpy
+* Tabula
+* Matplotlib, Seaborn
+* Requests
 
 Ordem de leitura dos notebooks:
 
@@ -35,3 +60,10 @@ Os numerados com 03 são os modelos escolhidos para a comparação inicial, come
 Do 04 em diante poderá ler a análise de features e as variações do modelo.
 
 As conclusões são tiradas no 12.2
+
+## Licença
+[MIT](https://opensource.org/licenses/MIT)
+
+## Problema/Bug
+
+Por favor abre um problema no github para reportar bugs ou pedidos para desenvolvimento de features.
